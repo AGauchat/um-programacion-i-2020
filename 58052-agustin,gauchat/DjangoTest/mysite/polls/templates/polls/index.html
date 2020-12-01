@@ -1,0 +1,8 @@
+{% if prueba %}
+    <p>Peliculas en mi Base</p>
+    {% for nombre in nombres %}
+    <li>{{ nombre }}</li>
+{% endfor %}
+{% else %}
+    <p>No entro</p>
+{% endif %}
